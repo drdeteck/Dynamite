@@ -1,0 +1,68 @@
+body
+{
+	width: 600px;
+ 
+}
+
+.center
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.float-left
+{
+	float: left;
+}
+
+.float-right
+{
+	float: right;
+}
+
+.fclear-left
+{
+	float: left;
+	clear: left; 
+}
+
+.fclear-right
+{
+	float: right;
+	clear: right; 
+}
+
+.metro
+{
+	font-family: Segoe UI, sans-serif;
+}
+
+div.button
+{
+	margin: 2px;
+}
+
+div.metro-close
+{
+	height: 100px;
+	width: 100px;
+	background-color: #565656; 
+}
+
+div.metro-open
+{
+	height: 97px;
+	width: 90px;
+	border: solid 5px green;
+	border-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+div.detail
+{
+	height: 60px;
+	width: 308px;
+	margin: 2px;
+	background-color: green;
+	margin-top: 0px;
+}
