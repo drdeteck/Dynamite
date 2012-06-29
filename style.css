@@ -34,7 +34,27 @@ body
 
 .metro
 {
+	padding: 1px;
+	color: black;
 	font-family: Segoe UI, sans-serif;
+}
+
+.title
+{
+	padding-left: 5px;
+	font-size: 1.5em;
+}
+
+.time
+{
+	padding-right: 10px;
+	font-size: 1.5em;
+}
+
+.summary
+{
+	padding-left: 5px;
+	font-size: 0.85em;
 }
 
 div.button
@@ -44,16 +64,17 @@ div.button
 
 div.metro-close
 {
-	height: 100px;
-	width: 100px;
-	background-color: #565656; 
+	height: 90px;
+	width: 90px;
+	border: solid 5px #AAAAAA;
+	background-color: #AAAAAA; 
 }
 
 div.metro-open
 {
 	height: 97px;
 	width: 90px;
-	border: solid 5px green;
+	border: solid 5px orange;
 	border-bottom: 0px;
 	margin-bottom: 0px;
 }
@@ -63,6 +84,6 @@ div.detail
 	height: 60px;
 	width: 308px;
 	margin: 2px;
-	background-color: green;
+	background-color: orange;
 	margin-top: 0px;
 }
