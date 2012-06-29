@@ -45,6 +45,13 @@ body
 	font-size: 1.5em;
 }
 
+.attendees
+{
+	padding-top: 23px;
+	padding-right: 7px;
+	font-size: 1.5em;
+}
+
 .time
 {
 	padding-right: 10px;
@@ -81,7 +88,7 @@ div.metro-open
 
 div.detail
 {
-	height: 60px;
+	height: 100px;
 	width: 308px;
 	margin: 2px;
 	background-color: orange;
