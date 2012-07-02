@@ -94,11 +94,22 @@ div.metro-attending
 
 div.detail
 {
-	height: 100px;
+	height: 200px;
 	width: 308px;
 	margin: 2px;
 	background-color: orange;
 	margin-top: 0px;
+	position: relative;
+}
+
+div.check-mark
+{
+	height: 30px;
+	width: 60px;
+	background-color: green;
+	position: absolute;
+	top: 155px; /* Depends on div.detail height  detail.h - this.h - spacing*/
+	left: 15px;
 }
 
 /*************/
@@ -111,18 +122,18 @@ div.detail
 	display:block;
 
 	/*Make it a small rectangle so the border will create an L-shape*/
-	width: 3px;
-	height: 6px;
+	width: 9px;
+	height: 18px;
 
 	/*Add a white border on the bottom and left, creating that 'L' */
 	border: solid green;
-	border-width: 0 2px 2px 0;
+	border-width: 0 6px 6px 0;
 
 	/*Position it on top of the circle*/
-	position:absolute;
-	left: 14px;
-	top: 40%;
-	margin-top: -4px;
+	/*position:absolute;*/
+	/*left: 28px;*/
+	/*top: 40%;*/
+	/*margin-top: -4px;*/
 
 	/*Rotate the L 45 degrees to turn it into a checkmark*/
 	-webkit-transform: rotate(45deg);
